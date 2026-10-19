@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="DemoWebShop System Testing" verbose="2">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="System Tests">
+
+        <groups>
+            <run>
+                <include name="SYS"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.RegistrationTest"/>
+            <class name="testcases.ShoppingCartTest"/>
+            <class name="testcases.WishlistTest"/>
+            <class name="testcases.CheckOutTest"/>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+package pages;
+import java.time.Duration; import org.openqa.selenium.By; import org.openqa.selenium.WebDriver; import org.openqa.selenium.WebElement; import org.openqa.selenium.support.ui.ExpectedConditions; import org.openqa.selenium.support.ui.WebDriverWait;
+public class RegistrationPage {
+ private final WebDriver driver; private final WebDriverWait wait;
+ private final By registerLink=By.cssSelector("a.ico-register"), male=By.id("gender-male"), female=By.id("gender-female"), first=By.id("FirstName"), last=By.id("LastName"), email=By.id("Email"), password=By.id("Password"), confirm=By.id("ConfirmPassword"), submit=By.id("register-button"), result=By.cssSelector(".result"), summary=By.cssSelector(".validation-summary-errors"), errors=By.cssSelector(".field-validation-error");
+ public RegistrationPage(WebDriver d,long seconds){driver=d;wait=new WebDriverWait(d,Duration.ofSeconds(seconds));}
+ public void open(){wait.until(ExpectedConditions.elementToBeClickable(registerLink)).click();wait.until(ExpectedConditions.visibilityOfElementLocated(first));}
+ public void fill(String gender,String fn,String ln,String mail,String pass,String cp){if("Male".equalsIgnoreCase(gender))driver.findElement(male).click();else if("Female".equalsIgnoreCase(gender))driver.findElement(female).click();driver.findElement(first).clear();driver.findElement(first).sendKeys(fn);driver.findElement(last).clear();driver.findElement(last).sendKeys(ln);driver.findElement(email).clear();driver.findElement(email).sendKeys(mail);driver.findElement(password).clear();driver.findElement(password).sendKeys(pass);driver.findElement(confirm).clear();driver.findElement(confirm).sendKeys(cp);}
+ public void submit(){driver.findElement(submit).click();}
+ public boolean isSuccess(){try{return wait.until(ExpectedConditions.urlContains("registerresult"))&&!driver.findElement(result).getText().trim().isEmpty();}catch(Exception e){return false;}}
+ public String messages(){StringBuilder s=new StringBuilder();try{s.append(driver.findElement(summary).getText()).append(" ");}catch(Exception ignored){}for(WebElement e:driver.findElements(errors)){if(!e.getText().trim().isEmpty())s.append(e.getText()).append(" ");}try{s.append(driver.findElement(result).getText());}catch(Exception ignored){}return s.toString().trim();}
+}

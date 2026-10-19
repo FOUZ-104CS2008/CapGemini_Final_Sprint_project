@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>TestNG:  Chrome - All Modules</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome - All Modules</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 16 20:46:26 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>356 seconds (356145 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.RegistrationTest.registrationTest()'><b>registrationTest</b><br>Test class: testcases.RegistrationTest<br>Parameters: REG03, Negative, Female, , user, , , , Required fields left blank; validation displayed</td>
+<td></td>
+<td>16</td>
+<td>testcases.RegistrationTest@5386659f</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.viewAsList()'><b>viewAsList</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.addJewelryToCart()'><b>addJewelryToCart</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>6</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.RegistrationTest.registrationTest()'><b>registrationTest</b><br>Test class: testcases.RegistrationTest<br>Parameters: REG01, Negative, Male, Test, User, invalid-email, Pass123!, Pass123!, Invalid email format: validation error; no account created</td>
+<td></td>
+<td>15</td>
+<td>testcases.RegistrationTest@5386659f</td></tr>
+<tr>
+<td title='testcases.WishlistTest.removeJewelryFromWishlist()'><b>removeJewelryFromWishlist</b><br>Test class: testcases.WishlistTest</td>
+<td></td>
+<td>23</td>
+<td>testcases.WishlistTest@4007f65e</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.sortByPosition()'><b>sortByPosition</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.WishlistTest.addJewelryToWishlist()'><b>addJewelryToWishlist</b><br>Test class: testcases.WishlistTest</td>
+<td></td>
+<td>8</td>
+<td>testcases.WishlistTest@4007f65e</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.sortNameAToZ()'><b>sortNameAToZ</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.RegistrationTest.registrationTest()'><b>registrationTest</b><br>Test class: testcases.RegistrationTest<br>Parameters: REG04, Valid, Female, tanzu, k, tanzu@gmail.com, Mohammed67$, Mohammed67$, Valid register of female; registration succeeds with valid credentials</td>
+<td></td>
+<td>5</td>
+<td>testcases.RegistrationTest@5386659f</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.sortNameZToA()'><b>sortNameZToA</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.LoginTest.loginTest()'><b>loginTest</b><br>Test class: testcases.LoginTest<br>Parameters: LOG01, Valid, Fouziya@gmail.com, Fouz@123, Successful login using existing registered account</td>
+<td></td>
+<td>5</td>
+<td>testcases.LoginTest@28dcca0c</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.sortByCreatedOn()'><b>sortByCreatedOn</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.displayFourProducts()'><b>displayFourProducts</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.viewAsGrid()'><b>viewAsGrid</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.addBookToCart()'><b>addBookToCart</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>3</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.CheckOutTest.verifySuccessfulCheckout()'><b>verifySuccessfulCheckout</b><br>Test class: testcases.CheckOutTest<br>Parameters: thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001, 9876543210, Cash On Delivery, , , , , </td>
+<td></td>
+<td>20</td>
+<td>testcases.CheckOutTest@1a245833</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.sortPriceHighToLow()'><b>sortPriceHighToLow</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.RegistrationTest.registrationTest()'><b>registrationTest</b><br>Test class: testcases.RegistrationTest<br>Parameters: REG02, Negative, Female, Test, User, neg_mismatch_02@example.com, Pass123!, Pass456!, Password mismatch validation; registration not completed</td>
+<td></td>
+<td>15</td>
+<td>testcases.RegistrationTest@5386659f</td></tr>
+<tr>
+<td title='testcases.LoginTest.loginTest()'><b>loginTest</b><br>Test class: testcases.LoginTest<br>Parameters: LOG02, Negative, Fouziya@gmail.com, WrongPassword123!, Incorrect password rejected with login validation message</td>
+<td></td>
+<td>13</td>
+<td>testcases.LoginTest@28dcca0c</td></tr>
+<tr>
+<td title='testcases.CheckOutTest.verifySuccessfulCheckout()'><b>verifySuccessfulCheckout</b><br>Test class: testcases.CheckOutTest<br>Parameters: thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001, 9876543210, Purchase Order, , , , , </td>
+<td></td>
+<td>24</td>
+<td>testcases.CheckOutTest@1a245833</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.displayTwelveProducts()'><b>displayTwelveProducts</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.CheckOutTest.verifySuccessfulCheckout()'><b>verifySuccessfulCheckout</b><br>Test class: testcases.CheckOutTest<br>Parameters: thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001, 9876543210, Check / Money Order, , , , , </td>
+<td></td>
+<td>24</td>
+<td>testcases.CheckOutTest@1a245833</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.displayEightProducts()'><b>displayEightProducts</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.RegistrationTest.registrationTest()'><b>registrationTest</b><br>Test class: testcases.RegistrationTest<br>Parameters: REG05, duplicate, Female, tanu, k, abc@gmail.com, Mohammed67$, Mohammed67$, Existing account already; duplicate email is rejected</td>
+<td></td>
+<td>16</td>
+<td>testcases.RegistrationTest@5386659f</td></tr>
+<tr>
+<td title='testcases.ShoppingCartTest.sortPriceLowToHigh()'><b>sortPriceLowToHigh</b><br>Test class: testcases.ShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.ShoppingCartTest@5c80cf32</td></tr>
+<tr>
+<td title='testcases.LoginTest.loginTest()'><b>loginTest</b><br>Test class: testcases.LoginTest<br>Parameters: LOG03, Nagative, methaab@gmail.com, methaab123!, user not exist</td>
+<td></td>
+<td>11</td>
+<td>testcases.LoginTest@28dcca0c</td></tr>
+<tr>
+<td title='testcases.CheckOutTest.verifySuccessfulCheckout()'><b>verifySuccessfulCheckout</b><br>Test class: testcases.CheckOutTest<br>Parameters: thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001, 9876543210, Credit Card, Test User, 4111111111111111, 01, 2028, 123</td>
+<td></td>
+<td>19</td>
+<td>testcases.CheckOutTest@1a245833</td></tr>
+<tr>
+<td title='testcases.RegistrationTest.registrationTest()'><b>registrationTest</b><br>Test class: testcases.RegistrationTest<br>Parameters: REG06, valid, male, ram, p, ram@gmail.com, ram123@, ram123@, Valid register of male; registration succeeds with valid credentials</td>
+<td></td>
+<td>7</td>
+<td>testcases.RegistrationTest@5386659f</td></tr>
+</table><p>
+</body>
+</html>

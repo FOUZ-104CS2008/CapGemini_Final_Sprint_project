@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoWebShop Smoke Suite]">
+  <test thread-count="5" name="Smoke Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="ST"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.ShoppingCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addJewelryToCart"/>
+          <include name="addBookToCart"/>
+        </methods>
+      </class> <!-- testcases.ShoppingCartTest -->
+      <class name="testcases.CheckOutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkoutUsingCashOnDelivery"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.CheckOutTest -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [DemoWebShop Smoke Suite] -->

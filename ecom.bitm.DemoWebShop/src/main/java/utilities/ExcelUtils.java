@@ -1,0 +1,6 @@
+package utilities;
+import java.io.FileInputStream; import java.util.ArrayList; import java.util.List; import org.apache.poi.ss.usermodel.*;
+public class ExcelUtils {
+ public static List<Object[]> getData(String sheetName){List<Object[]> rows=new ArrayList<>();String path=System.getProperty("user.dir")+"/src/test/resources/testdata/TestData.xlsx";
+ try(FileInputStream in=new FileInputStream(path);Workbook wb=WorkbookFactory.create(in)){Sheet sh=wb.getSheet(sheetName);if(sh==null)throw new IllegalArgumentException("Missing sheet "+sheetName);DataFormatter f=new DataFormatter();for(int i=1;i<=sh.getLastRowNum();i++){Row r=sh.getRow(i);if(r==null)continue;int n=r.getLastCellNum();Object[] a=new Object[n];boolean empty=true;for(int c=0;c<n;c++){a[c]=f.formatCellValue(r.getCell(c,Row.MissingCellPolicy.CREATE_NULL_AS_BLANK));if(!a[c].toString().trim().isEmpty())empty=false;}if(!empty)rows.add(a);}}catch(Exception e){throw new RuntimeException("Unable to read Excel test data",e);}return rows;}
+}

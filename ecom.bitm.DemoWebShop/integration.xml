@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="DemoWebShop Integration Suite" verbose="2">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Integration Tests">
+        <groups>
+            <run>
+                <include name="IT"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.RegistrationTest"/>
+            <class name="testcases.ShoppingCartTest"/>
+            <class name="testcases.WishlistTest"/>
+            <class name="testcases.CheckOutTest"/>
+        </classes>
+    </test>
+
+</suite>

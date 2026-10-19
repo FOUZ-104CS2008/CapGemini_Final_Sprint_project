@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DemoWebShop Parallel Suite"
+       parallel="classes"
+       thread-count="5">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Parallel Test Execution">
+
+        <classes>
+            <class name="testcases.RegistrationTest"/>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.ShoppingCartTest"/>
+            <class name="testcases.WishlistTest"/>
+            <class name="testcases.CheckOutTest"/>
+        </classes>
+
+    </test>
+
+</suite>

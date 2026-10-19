@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\bfouz\Downloads\DemoWebShop_Book_Jewelry_Cart_Maven_Fixed (1)\DemoWebShop_Register_Login_Maven\batch.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="addBookToCart">addBookToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="addJewelryToCart">addJewelryToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.WishlistTest" class="method navigator-link" hash-for-method="addJewelryToWishlist">addJewelryToWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckOutTest" class="method navigator-link" hash-for-method="checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="displayEightProducts">displayEightProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="displayFourProducts">displayFourProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="displayTwelveProducts">displayTwelveProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest(LOG03, Nagative, methaab@gmail.com, methaab123!, user not exist)">loginTest(LOG03, Nagative, methaab@gmail.com, methaab123!, user not exist)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest(LOG01, Valid, Fouziya@gmail.com, Fouz@123, Successful login using existing registered account)">loginTest(LOG01, Valid, Fouziya@gmail.com, Fouz@123, Successful login using existing registered account)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest(LOG02, Negative, Fouziya@gmail.com, WrongPassword123!, Incorrect password rejected with login valida...)">loginTest(LOG02, Negative, Fouziya@gmail.com, WrongPassword123!, Incorrect password rejected with login valida...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(REG02, Negative, Female, Test, User, neg_mismatch_02@example.com, Pass123!, Pass456!, Password misma...)">registrationTest(REG02, Negative, Female, Test, User, neg_mismatch_02@example.com, Pass123!, Pass456!, Password misma...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(REG04, Valid, Female, tanzu, k, tanzu@gmail.com, Mohammed67$, Mohammed67$, Valid register of female;...)">registrationTest(REG04, Valid, Female, tanzu, k, tanzu@gmail.com, Mohammed67$, Mohammed67$, Valid register of female;...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(REG05, duplicate, Female, tanu, k, abc@gmail.com, Mohammed67$, Mohammed67$, Existing account already...)">registrationTest(REG05, duplicate, Female, tanu, k, abc@gmail.com, Mohammed67$, Mohammed67$, Existing account already...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(REG01, Negative, Male, Test, User, invalid-email, Pass123!, Pass123!, Invalid email format: validati...)">registrationTest(REG01, Negative, Male, Test, User, invalid-email, Pass123!, Pass123!, Invalid email format: validati...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(REG03, Negative, Female, , user, , , , Required fields left blank; validation displayed)">registrationTest(REG03, Negative, Female, , user, , , , Required fields left blank; validation displayed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(REG06, valid, male, ram, p, ram@gmail.com, ram123@, ram123@, Valid register of male; registration su...)">registrationTest(REG06, valid, male, ram, p, ram@gmail.com, ram123@, ram123@, Valid register of male; registration su...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.WishlistTest" class="method navigator-link" hash-for-method="removeJewelryFromWishlist">removeJewelryFromWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="sortByCreatedOn">sortByCreatedOn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="sortByPosition">sortByPosition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="sortNameAToZ">sortNameAToZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="sortNameZToA">sortNameZToA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="sortPriceHighToLow">sortPriceHighToLow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="sortPriceLowToHigh">sortPriceLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="viewAsGrid">viewAsGrid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="viewAsList">viewAsList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBookToCart">
+                  </a> <!-- addBookToCart -->
+                  <span class="method-name">addBookToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addJewelryToCart">
+                  </a> <!-- addJewelryToCart -->
+                  <span class="method-name">addJewelryToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayEightProducts">
+                  </a> <!-- displayEightProducts -->
+                  <span class="method-name">displayEightProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayFourProducts">
+                  </a> <!-- displayFourProducts -->
+                  <span class="method-name">displayFourProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayTwelveProducts">
+                  </a> <!-- displayTwelveProducts -->
+                  <span class="method-name">displayTwelveProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByCreatedOn">
+                  </a> <!-- sortByCreatedOn -->
+                  <span class="method-name">sortByCreatedOn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByPosition">
+                  </a> <!-- sortByPosition -->
+                  <span class="method-name">sortByPosition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortNameAToZ">
+                  </a> <!-- sortNameAToZ -->
+                  <span class="method-name">sortNameAToZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortNameZToA">
+                  </a> <!-- sortNameZToA -->
+                  <span class="method-name">sortNameZToA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortPriceHighToLow">
+                  </a> <!-- sortPriceHighToLow -->
+                  <span class="method-name">sortPriceHighToLow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortPriceLowToHigh">
+                  </a> <!-- sortPriceLowToHigh -->
+                  <span class="method-name">sortPriceLowToHigh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewAsGrid">
+                  </a> <!-- viewAsGrid -->
+                  <span class="method-name">viewAsGrid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewAsList">
+                  </a> <!-- viewAsList -->
+                  <span class="method-name">viewAsList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.WishlistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addJewelryToWishlist">
+                  </a> <!-- addJewelryToWishlist -->
+                  <span class="method-name">addJewelryToWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeJewelryFromWishlist">
+                  </a> <!-- removeJewelryFromWishlist -->
+                  <span class="method-name">removeJewelryFromWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest(REG02, Negative, Female, Test, User, neg_mismatch_02@example.com, Pass123!, Pass456!, Password misma...)">
+                  </a> <!-- registrationTest(REG02, Negative, Female, Test, User, neg_mismatch_02@example.com, Pass123!, Pass456!, Password misma...) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">(REG02,Negative,Female,Test,User,neg_mismatch_02@example.com,Pass123!,Pass456!,Password mismatch validation; registration not completed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest(REG04, Valid, Female, tanzu, k, tanzu@gmail.com, Mohammed67$, Mohammed67$, Valid register of female;...)">
+                  </a> <!-- registrationTest(REG04, Valid, Female, tanzu, k, tanzu@gmail.com, Mohammed67$, Mohammed67$, Valid register of female;...) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">(REG04,Valid,Female,tanzu,k,tanzu@gmail.com,Mohammed67$,Mohammed67$,Valid register of female; registration succeeds with valid credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest(REG05, duplicate, Female, tanu, k, abc@gmail.com, Mohammed67$, Mohammed67$, Existing account already...)">
+                  </a> <!-- registrationTest(REG05, duplicate, Female, tanu, k, abc@gmail.com, Mohammed67$, Mohammed67$, Existing account already...) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">(REG05,duplicate,Female,tanu,k,abc@gmail.com,Mohammed67$,Mohammed67$,Existing account already; duplicate email is rejected)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest(REG01, Negative, Male, Test, User, invalid-email, Pass123!, Pass123!, Invalid email format: validati...)">
+                  </a> <!-- registrationTest(REG01, Negative, Male, Test, User, invalid-email, Pass123!, Pass123!, Invalid email format: validati...) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">(REG01,Negative,Male,Test,User,invalid-email,Pass123!,Pass123!,Invalid email format: validation error; no account created)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest(REG03, Negative, Female, , user, , , , Required fields left blank; validation displayed)">
+                  </a> <!-- registrationTest(REG03, Negative, Female, , user, , , , Required fields left blank; validation displayed) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">(REG03,Negative,Female,,user,,,,Required fields left blank; validation displayed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest(REG06, valid, male, ram, p, ram@gmail.com, ram123@, ram123@, Valid register of male; registration su...)">
+                  </a> <!-- registrationTest(REG06, valid, male, ram, p, ram@gmail.com, ram123@, ram123@, Valid register of male; registration su...) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">(REG06,valid,male,ram,p,ram@gmail.com,ram123@,ram123@,Valid register of male; registration succeeds with valid credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CheckOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCashOnDelivery</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCashOnDelivery</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCashOnDelivery</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCashOnDelivery</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCheckMoneyOrder</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCheckMoneyOrder</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCheckMoneyOrder</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCheckMoneyOrder</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCreditCard</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCreditCard</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCreditCard</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingCreditCard</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingPurchaseOrder</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingPurchaseOrder</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingPurchaseOrder</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)">
+                  </a> <!-- checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...) -->
+                  <span class="method-name">checkoutUsingPurchaseOrder</span>
+                  <span class="parameters">(thezeem@gmail.com,tousif@123,Test,User,thezeem@gmail.com,India,Bengaluru,Test Address,560001,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(LOG03, Nagative, methaab@gmail.com, methaab123!, user not exist)">
+                  </a> <!-- loginTest(LOG03, Nagative, methaab@gmail.com, methaab123!, user not exist) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(LOG03,Nagative,methaab@gmail.com,methaab123!,user not exist)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(LOG01, Valid, Fouziya@gmail.com, Fouz@123, Successful login using existing registered account)">
+                  </a> <!-- loginTest(LOG01, Valid, Fouziya@gmail.com, Fouz@123, Successful login using existing registered account) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(LOG01,Valid,Fouziya@gmail.com,Fouz@123,Successful login using existing registered account)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(LOG02, Negative, Fouziya@gmail.com, WrongPassword123!, Incorrect password rejected with login valida...)">
+                  </a> <!-- loginTest(LOG02, Negative, Fouziya@gmail.com, WrongPassword123!, Incorrect password rejected with login valida...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(LOG02,Negative,Fouziya@gmail.com,WrongPassword123!,Incorrect password rejected with login validation message)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bfouz\Downloads\DemoWebShop_Book_Jewelry_Cart_Maven_Fixed (1)\DemoWebShop_Register_Login_Maven\batch.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.RegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testcases.WishlistTest&quot;/&gt;
+      &lt;class name=&quot;testcases.ShoppingCartTest&quot;/&gt;
+      &lt;class name=&quot;testcases.CheckOutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">FT</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addBookToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJewelryToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJewelryToWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCashOnDelivery</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCheckMoneyOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCreditCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingPurchaseOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registrationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeJewelryFromWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sortByPosition</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">IT</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addBookToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJewelryToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJewelryToWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCashOnDelivery</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCheckMoneyOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCreditCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingPurchaseOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registrationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ST</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addBookToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJewelryToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJewelryToWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCashOnDelivery</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registrationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeJewelryFromWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SYS</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addBookToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJewelryToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJewelryToWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCashOnDelivery</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCheckMoneyOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingCreditCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutUsingPurchaseOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registrationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeJewelryFromWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkoutUsingCheckMoneyOrder')
+data.setCell(0, 2, 'testcases.CheckOutTest')
+data.setCell(0, 3, 27191);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'removeJewelryFromWishlist')
+data.setCell(1, 2, 'testcases.WishlistTest')
+data.setCell(1, 3, 25734);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkoutUsingPurchaseOrder')
+data.setCell(2, 2, 'testcases.CheckOutTest')
+data.setCell(2, 3, 25558);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkoutUsingCheckMoneyOrder')
+data.setCell(3, 2, 'testcases.CheckOutTest')
+data.setCell(3, 3, 25111);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkoutUsingCheckMoneyOrder')
+data.setCell(4, 2, 'testcases.CheckOutTest')
+data.setCell(4, 3, 24824);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkoutUsingCashOnDelivery')
+data.setCell(5, 2, 'testcases.CheckOutTest')
+data.setCell(5, 3, 24732);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkoutUsingCashOnDelivery')
+data.setCell(6, 2, 'testcases.CheckOutTest')
+data.setCell(6, 3, 24464);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkoutUsingCashOnDelivery')
+data.setCell(7, 2, 'testcases.CheckOutTest')
+data.setCell(7, 3, 24057);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkoutUsingCheckMoneyOrder')
+data.setCell(8, 2, 'testcases.CheckOutTest')
+data.setCell(8, 3, 23695);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkoutUsingPurchaseOrder')
+data.setCell(9, 2, 'testcases.CheckOutTest')
+data.setCell(9, 3, 23161);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkoutUsingCreditCard')
+data.setCell(10, 2, 'testcases.CheckOutTest')
+data.setCell(10, 3, 22927);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkoutUsingPurchaseOrder')
+data.setCell(11, 2, 'testcases.CheckOutTest')
+data.setCell(11, 3, 22806);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkoutUsingCreditCard')
+data.setCell(12, 2, 'testcases.CheckOutTest')
+data.setCell(12, 3, 22738);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkoutUsingCashOnDelivery')
+data.setCell(13, 2, 'testcases.CheckOutTest')
+data.setCell(13, 3, 22420);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkoutUsingPurchaseOrder')
+data.setCell(14, 2, 'testcases.CheckOutTest')
+data.setCell(14, 3, 22289);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkoutUsingCreditCard')
+data.setCell(15, 2, 'testcases.CheckOutTest')
+data.setCell(15, 3, 20661);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkoutUsingCreditCard')
+data.setCell(16, 2, 'testcases.CheckOutTest')
+data.setCell(16, 3, 20615);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'registrationTest')
+data.setCell(17, 2, 'testcases.RegistrationTest')
+data.setCell(17, 3, 17076);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'registrationTest')
+data.setCell(18, 2, 'testcases.RegistrationTest')
+data.setCell(18, 3, 16670);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'registrationTest')
+data.setCell(19, 2, 'testcases.RegistrationTest')
+data.setCell(19, 3, 16345);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'registrationTest')
+data.setCell(20, 2, 'testcases.RegistrationTest')
+data.setCell(20, 3, 16305);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginTest')
+data.setCell(21, 2, 'testcases.LoginTest')
+data.setCell(21, 3, 14105);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginTest')
+data.setCell(22, 2, 'testcases.LoginTest')
+data.setCell(22, 3, 13969);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'addJewelryToWishlist')
+data.setCell(23, 2, 'testcases.WishlistTest')
+data.setCell(23, 3, 10814);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'registrationTest')
+data.setCell(24, 2, 'testcases.RegistrationTest')
+data.setCell(24, 3, 7219);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'registrationTest')
+data.setCell(25, 2, 'testcases.RegistrationTest')
+data.setCell(25, 3, 7023);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'addBookToCart')
+data.setCell(26, 2, 'testcases.ShoppingCartTest')
+data.setCell(26, 3, 5884);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'addJewelryToCart')
+data.setCell(27, 2, 'testcases.ShoppingCartTest')
+data.setCell(27, 3, 5225);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'loginTest')
+data.setCell(28, 2, 'testcases.LoginTest')
+data.setCell(28, 3, 4404);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'sortNameAToZ')
+data.setCell(29, 2, 'testcases.ShoppingCartTest')
+data.setCell(29, 3, 2383);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'sortPriceLowToHigh')
+data.setCell(30, 2, 'testcases.ShoppingCartTest')
+data.setCell(30, 3, 2173);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'viewAsList')
+data.setCell(31, 2, 'testcases.ShoppingCartTest')
+data.setCell(31, 3, 2156);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'sortNameZToA')
+data.setCell(32, 2, 'testcases.ShoppingCartTest')
+data.setCell(32, 3, 2116);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'sortByCreatedOn')
+data.setCell(33, 2, 'testcases.ShoppingCartTest')
+data.setCell(33, 3, 2072);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'displayTwelveProducts')
+data.setCell(34, 2, 'testcases.ShoppingCartTest')
+data.setCell(34, 3, 2057);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'sortPriceHighToLow')
+data.setCell(35, 2, 'testcases.ShoppingCartTest')
+data.setCell(35, 3, 2034);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'displayFourProducts')
+data.setCell(36, 2, 'testcases.ShoppingCartTest')
+data.setCell(36, 3, 1986);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'displayEightProducts')
+data.setCell(37, 2, 'testcases.ShoppingCartTest')
+data.setCell(37, 3, 1613);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'viewAsGrid')
+data.setCell(38, 2, 'testcases.ShoppingCartTest')
+data.setCell(38, 3, 1582);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'sortByPosition')
+data.setCell(39, 2, 'testcases.ShoppingCartTest')
+data.setCell(39, 3, 1403);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationTest(REG01, Negative, Male, Test, User, invalid-email, Pass123!, Pass123!, Invalid email format: validati...)</span>
+                <span class="method-start">7101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
+                <span class="method-start">23779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">24325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationTest(REG02, Negative, Female, Test, User, neg_mismatch_02@example.com, Pass123!, Pass456!, Password misma...)</span>
+                <span class="method-start">35541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
+                <span class="method-start">51851 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">52298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationTest(REG03, Negative, Female, , user, , , , Required fields left blank; validation displayed)</span>
+                <span class="method-start">57257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
+                <span class="method-start">73604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">74047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationTest(REG04, Valid, Female, tanzu, k, tanzu@gmail.com, Mohammed67$, Mohammed67$, Valid register of female;...)</span>
+                <span class="method-start">79171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
+                <span class="method-start">86198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">86598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationTest(REG05, duplicate, Female, tanu, k, abc@gmail.com, Mohammed67$, Mohammed67$, Existing account already...)</span>
+                <span class="method-start">91589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
+                <span class="method-start">108811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">109319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationTest(REG06, valid, male, ram, p, ram@gmail.com, ram123@, ram123@, Valid register of male; registration su...)</span>
+                <span class="method-start">114863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
+                <span class="method-start">122084 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">122653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(LOG01, Valid, Fouziya@gmail.com, Fouz@123, Successful login using existing registered account)</span>
+                <span class="method-start">128337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">132744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">133136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(LOG02, Negative, Fouziya@gmail.com, WrongPassword123!, Incorrect password rejected with login valida...)</span>
+                <span class="method-start">138495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">152469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">152986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(LOG03, Nagative, methaab@gmail.com, methaab123!, user not exist)</span>
+                <span class="method-start">157373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">171480 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.WishlistTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addJewelryToWishlist</span>
+                <span class="method-start">171963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeJewelryFromWishlist</span>
+                <span class="method-start">182782 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loadShoppingCartData</span>
+                <span class="method-start">208519 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">208668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortByPosition</span>
+                <span class="method-start">213624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortByPosition status=SUCCESS method=ShoppingCartTest.sortByPosition()[pri:1, insta...)</span>
+                <span class="method-start">215028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">215599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortNameAToZ</span>
+                <span class="method-start">221825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortNameAToZ status=SUCCESS method=ShoppingCartTest.sortNameAToZ()[pri:2, instance:...)</span>
+                <span class="method-start">224212 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">224668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortNameZToA</span>
+                <span class="method-start">229727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortNameZToA status=SUCCESS method=ShoppingCartTest.sortNameZToA()[pri:3, instance:...)</span>
+                <span class="method-start">231845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">232410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortPriceLowToHigh</span>
+                <span class="method-start">238029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortPriceLowToHigh status=SUCCESS method=ShoppingCartTest.sortPriceLowToHigh()[pri:...)</span>
+                <span class="method-start">240202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">240729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortPriceHighToLow</span>
+                <span class="method-start">246516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortPriceHighToLow status=SUCCESS method=ShoppingCartTest.sortPriceHighToLow()[pri:...)</span>
+                <span class="method-start">248556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">248978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortByCreatedOn</span>
+                <span class="method-start">253662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortByCreatedOn status=SUCCESS method=ShoppingCartTest.sortByCreatedOn()[pri:6, ins...)</span>
+                <span class="method-start">255736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">256251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">displayFourProducts</span>
+                <span class="method-start">261088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=displayFourProducts status=SUCCESS method=ShoppingCartTest.displayFourProducts()[pr...)</span>
+                <span class="method-start">263078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">263669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">displayEightProducts</span>
+                <span class="method-start">268973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=displayEightProducts status=SUCCESS method=ShoppingCartTest.displayEightProducts()[...)</span>
+                <span class="method-start">270587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">271121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">displayTwelveProducts</span>
+                <span class="method-start">276555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=displayTwelveProducts status=SUCCESS method=ShoppingCartTest.displayTwelveProducts(...)</span>
+                <span class="method-start">278616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">279130 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewAsGrid</span>
+                <span class="method-start">284792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=viewAsGrid status=SUCCESS method=ShoppingCartTest.viewAsGrid()[pri:10, instance:tes...)</span>
+                <span class="method-start">286375 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">286852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewAsList</span>
+                <span class="method-start">292094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=viewAsList status=SUCCESS method=ShoppingCartTest.viewAsList()[pri:11, instance:tes...)</span>
+                <span class="method-start">294253 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">294738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addBookToCart</span>
+                <span class="method-start">299677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addBookToCart status=SUCCESS method=ShoppingCartTest.addBookToCart()[pri:12, instan...)</span>
+                <span class="method-start">305564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">306003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addJewelryToCart</span>
+                <span class="method-start">311685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addJewelryToCart status=SUCCESS method=ShoppingCartTest.addJewelryToCart()[pri:13, ...)</span>
+                <span class="method-start">316912 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CheckOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">317462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">323795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCashOnDelivery status=SUCCESS method=CheckOutTest.checkoutUsingCashOnD...)</span>
+                <span class="method-start">348529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">349171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">354272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCashOnDelivery status=SUCCESS method=CheckOutTest.checkoutUsingCashOnD...)</span>
+                <span class="method-start">378740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">380830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">386218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCashOnDelivery status=SUCCESS method=CheckOutTest.checkoutUsingCashOnD...)</span>
+                <span class="method-start">410279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">410823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCashOnDelivery(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">415415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCashOnDelivery status=SUCCESS method=CheckOutTest.checkoutUsingCashOnD...)</span>
+                <span class="method-start">437837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">438632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">443484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCheckMoneyOrder status=SUCCESS method=CheckOutTest.checkoutUsingCheckM...)</span>
+                <span class="method-start">468310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">468919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">474767 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCheckMoneyOrder status=SUCCESS method=CheckOutTest.checkoutUsingCheckM...)</span>
+                <span class="method-start">501960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">502709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">507118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCheckMoneyOrder status=SUCCESS method=CheckOutTest.checkoutUsingCheckM...)</span>
+                <span class="method-start">532232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">532780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCheckMoneyOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">537477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCheckMoneyOrder status=SUCCESS method=CheckOutTest.checkoutUsingCheckM...)</span>
+                <span class="method-start">561205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">561719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">566986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCreditCard status=SUCCESS method=CheckOutTest.checkoutUsingCreditCard(...)</span>
+                <span class="method-start">587603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">588084 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">593722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCreditCard status=SUCCESS method=CheckOutTest.checkoutUsingCreditCard(...)</span>
+                <span class="method-start">616651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">617179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">622743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCreditCard status=SUCCESS method=CheckOutTest.checkoutUsingCreditCard(...)</span>
+                <span class="method-start">643406 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">643777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingCreditCard(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">649442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingCreditCard status=SUCCESS method=CheckOutTest.checkoutUsingCreditCard(...)</span>
+                <span class="method-start">672182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">672670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">677688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingPurchaseOrder status=SUCCESS method=CheckOutTest.checkoutUsingPurchase...)</span>
+                <span class="method-start">700851 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">701286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">706925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingPurchaseOrder status=SUCCESS method=CheckOutTest.checkoutUsingPurchase...)</span>
+                <span class="method-start">729215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">729555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">734566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingPurchaseOrder status=SUCCESS method=CheckOutTest.checkoutUsingPurchase...)</span>
+                <span class="method-start">757373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp()</span>
+                <span class="method-start">757767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutUsingPurchaseOrder(thezeem@gmail.com, tousif@123, Test, User, thezeem@gmail.com, India, Bengaluru, Test Address, 560001...)</span>
+                <span class="method-start">762918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutUsingPurchaseOrder status=SUCCESS method=CheckOutTest.checkoutUsingPurchase...)</span>
+                <span class="method-start">788477 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

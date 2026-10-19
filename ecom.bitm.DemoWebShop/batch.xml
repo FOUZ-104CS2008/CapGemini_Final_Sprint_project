@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="testcases.RegistrationTest"/>
+       <class name="testcases.LoginTest"/>
+       <class name="testcases.WishlistTest"/>
+       <class name="testcases.ShoppingCartTest"/>
+      <class name="testcases.CheckOutTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

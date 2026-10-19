@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="DemoWebShop Cross Browser Suite">
+
+    <!-- CHROME: 18 test cases -->
+    <test name="Chrome - All Modules">
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="testcases.RegistrationTest"/>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.ShoppingCartTest"/>
+            <class name="testcases.WishlistTest"/>
+            <class name="testcases.CheckOutTest"/>
+        </classes>
+    </test>
+
+    <!-- EDGE: 18 test cases -->
+    <test name="Edge - All Modules">
+        <parameter name="browser" value="edge"/>
+
+        <classes>
+            <class name="testcases.RegistrationTest"/>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.ShoppingCartTest"/>
+            <class name="testcases.WishlistTest"/>
+            <class name="testcases.CheckOutTest"/>
+        </classes>
+    </test>
+
+</suite>

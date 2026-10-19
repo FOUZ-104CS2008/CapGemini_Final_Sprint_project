@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Negative Test Suite" parallel="false">
+
+    <!-- Negative Registration Tests -->
+    <test name="Negative Registration">
+        <classes>
+            <class name="testcases.RegistrationTest">
+                <methods>
+                    <include name="registrationTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- Negative Login Tests -->
+    <test name="Negative Login">
+        <classes>
+            <class name="testcases.LoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- Empty Cart Checkout Test -->
+    <test name="Negative Checkout">
+        <classes>
+            <class name="testcases.CheckOutTest">
+                <methods>
+                    <include name="checkoutWithEmptyCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
