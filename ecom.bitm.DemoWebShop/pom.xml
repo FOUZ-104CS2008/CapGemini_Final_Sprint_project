@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -19,15 +18,12 @@
     </properties>
 
     <dependencies>
-
-        <!-- Selenium WebDriver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.27.0</version>
         </dependency>
 
-        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -35,19 +31,15 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Apache POI for Excel test data -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>5.3.0</version>
         </dependency>
-
     </dependencies>
 
     <build>
         <plugins>
-
-            <!-- Java compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -59,7 +51,6 @@
                 </configuration>
             </plugin>
 
-            <!-- TestNG suite execution -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -70,14 +61,10 @@
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
-    <!-- Test suite profiles -->
     <profiles>
-
-        <!-- Functional Testing -->
         <profile>
             <id>FT</id>
             <properties>
@@ -85,7 +72,6 @@
             </properties>
         </profile>
 
-        <!-- System Testing -->
         <profile>
             <id>SYS</id>
             <properties>
@@ -93,7 +79,6 @@
             </properties>
         </profile>
 
-        <!-- Integration Testing -->
         <profile>
             <id>IT</id>
             <properties>
@@ -101,14 +86,12 @@
             </properties>
         </profile>
 
-        <!-- Smoke Testing -->
         <profile>
             <id>ST</id>
             <properties>
                 <suiteXmlFile>smoke.xml</suiteXmlFile>
             </properties>
         </profile>
-
     </profiles>
 
 </project>
